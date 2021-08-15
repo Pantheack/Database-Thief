@@ -31,7 +31,7 @@ if(islemno == "1"):
 if(islemno == "2"):
        aciklilink = input("Enter the open address here:")
        veritabani = input("Enter the database name:")
-       os.system("sqlmap -u " + aciklilink + " -D " + veritabani + " --tables -- random-agent")
+       os.system("sqlmap -u " + aciklilink + " -D " + veritabani + " --tables --random-agent")
        
 if(islemno == "3"):
        aciklilink = input("Enter the open address here:")
